@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.con{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.btn{
+cursor: pointer;
+    width: 240px;
+    height: 28px;
+}
+.incrementor{
+    background-color: green;
+    border: none;
+}
+.decrementor{
+    background-color: red;
+    border: none;
+}
+#number{
+    font-size: 4.2rem;
+    font-weight: 400;
+
+}
+.overlay{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top:25%;
+    left:25%;
+    background-color: #22092C;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    background-color:#FFF;
+}
+.close_btn{
+    position: absolute;
+    top:0;
+    right:0;
+}
