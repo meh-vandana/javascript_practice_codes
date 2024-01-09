@@ -66,4 +66,8 @@ cursor: pointer;
     position: absolute;
     top:0;
     right:0;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
 }
