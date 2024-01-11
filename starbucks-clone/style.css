@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .con
 {
@@ -23,7 +24,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 50px;
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
     
@@ -60,8 +61,13 @@
     font-weight: 200;
     opacity: 0.8;
     color: #1e1e1e;
-
+    text-decoration: none;
 }
+.active{
+    border-bottom: 2px solid #0E382C;
+}
+
+
 .app-logo{
     width: 40px;
     height: 40px;
@@ -273,7 +279,7 @@ items{
 }
 .footerleft{
     width:70vw;
-    height:130vh;
+    height:100vh;
     background-color: #0E382C;
     color: white;
     display: flex;
@@ -284,7 +290,7 @@ items{
 }
 .footerright{
     width: 30vw;
-    height: 130vh;
+    height: 100vh;
     background-color:#0E382C;
 }
 
@@ -478,6 +484,46 @@ items{
 .last{
     margin-left: 200px;
     border-radius: 5%;
+}
+.line{
+    width: 100vw;
+    height: 0.5px;
+    background-color: white;
+    opacity:0.6;
+}
+.footerlast{
+    width: 100vw;
+    height: 15vh;
+    background-color: #0E382C;
+}
+.footlast{
+    margin-left: 180px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    border: none;
+
+}
+.fotlast{
+    color: white;
+list-style: none;
+font-family: sans-serif;
+font-weight: 100;
+font-size: 0.8rem;
+}
+.smallline{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+}
+.pa{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-left: 1000px;
+    font-weight: 100;
+    
 }
 
 

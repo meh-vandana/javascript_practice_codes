@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    gap:30px;
+    
+    
+}
+.Joke{
+    font-size: 2rem;
+    font-family: sans-serif;
+    
+}
+.joke-gen{
+    height: 28px;
+width: 180px;
+    border: none;
+    background-color: blue;
+    color: black;
+    
+}
