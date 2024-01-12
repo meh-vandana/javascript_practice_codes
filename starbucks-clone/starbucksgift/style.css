@@ -15,58 +15,21 @@
     
 }
 
+ 
 .top{
     width: 100vw;
     height: 5vw;
     background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
-    position: sticky;
-    top: 0;
-    right: 0;  
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 }
+    
 
-.link-ctn,.search-bar-ctn
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap:80px;
-
-}
-
-.bar-ctn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.links{
-    display: flex;
-    flex-direction:row ;
-    justify-content:center ;
-    align-items: flex-start;
-    gap:50px;
-    list-style: none;
-    cursor: pointer;
-}
-
-.link{
-    font-size: 1rem;
-    font-weight: 200;
-    opacity: 0.8;
-    color: #1e1e1e;
-    text-decoration: none;
+.homgift{
+    padding-left: 30px;
 }
 .giftcards{
     width: 100vw;
     height: 6vh;
-    padding-left: 170px;
+ 
     padding-top: 20px;
     
 }
