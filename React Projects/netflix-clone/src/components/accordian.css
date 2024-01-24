@@ -1,0 +1,15 @@
+.ctn3{
+    width: 100vw;
+    height: 110vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.accordian{
+    width: 80vw;
+
+
+}

@@ -1,0 +1,88 @@
+.main{
+    width: 100vw;
+}
+
+.homepage{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn1{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    background-image: url('../assets/netflixback.avif');
+}
+.logo{
+    width: 100px;
+    padding-left: 30px;
+}
+.homepagetop{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    
+    
+    
+}
+.options{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.homepagebottom{
+    width: 100vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.heading1,.heading2,.para{
+    color: white;
+}
+.heading1{
+    font-weight:bolder;
+    font-size: 3rem;
+}
+.heading2{
+    font-size: 1.5rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.getstarted{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+
+}
